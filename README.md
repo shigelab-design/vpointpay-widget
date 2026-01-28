@@ -1,0 +1,2 @@
+# vpointpay-widget
+Vポイントpay Androidアプリ
