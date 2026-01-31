@@ -3,9 +3,156 @@
 <head>
   <meta charset="UTF-8">
   <title>VポイントPay残高ウィジェット</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VポイントPay残高をホーム画面のウィジェットで一瞬チェックできるAndroidアプリ。シンプルで見やすい残高表示に特化。">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>VポイントPay残高ウィジェット</h1>
-  <p>このページは GitHub Pages で公開されています。</p>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="app-label">Android ウィジェットアプリ</p>
+        <h1>VポイントPay残高ウィジェット</h1>
+        <p class="hero-copy">
+          VポイントPay残高を、<br>
+          アプリを開かずホーム画面で一瞬チェック。
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="https://github.com/shigelab-design/vpointpay-widget" target="_blank" rel="noopener">
+            GitHub でソースコードを見る
+          </a>
+          <!-- Play ストア公開後にリンクを差し替え -->
+          <a class="btn ghost" href="#" target="_blank" rel="noopener">
+            Google Play（公開予定）
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- ウィジェットのスクリーンショットを images/widget.png として置く想定 -->
+        <div class="widget-mock">
+          <img src="images/widget.png" alt="VポイントPay残高ウィジェットのスクリーンショット">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-inner">
+        <h2>このウィジェットでできること</h2>
+        <div class="features">
+          <div class="feature-item">
+            <h3>ホーム画面で即・残高チェック</h3>
+            <p>
+              VポイントPayアプリを開かなくても、ホーム画面のウィジェットを見るだけで残高がわかります。
+            </p>
+          </div>
+          <div class="feature-item">
+            <h3>シンプルで見やすい残高表示</h3>
+            <p>
+              太字・影付きの残高表示で、パッと見てすぐに金額が認識できるようデザインしています。
+            </p>
+          </div>
+          <div class="feature-item">
+            <h3>1×2ウィジェットに最適化</h3>
+            <p>
+              Android標準のウィジェットガイドラインを意識し、1×2サイズでバランスよく収まるレイアウトに調整しています。
+            </p>
+          </div>
+          <div class="feature-item">
+            <h3>オープンソースで安心</h3>
+            <p>
+              GitHubでソースコードを公開。どのように動いているかを誰でも確認できます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="section-inner">
+        <h2>スクリーンショット</h2>
+        <div class="gallery">
+          <!-- 必要に応じて画像を追加 -->
+          <figure class="gallery-item">
+            <img src="images/widget-home.png" alt="ホーム画面に配置したウィジェット">
+            <figcaption>ホーム画面に配置したウィジェット</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/widget-light.png" alt="ライトテーマでの表示例">
+            <figcaption>ライトテーマでの表示例</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <h2>使い方</h2>
+        <ol class="steps">
+          <li><span>1.</span> アプリをインストールします。（Google Play または GitHub のリリースから）</li>
+          <li><span>2.</span> VポイントPayにログインし、残高が表示されることを確認します。</li>
+          <li><span>3.</span> ホーム画面を長押しし、「ウィジェット」を選択します。</li>
+          <li><span>4.</span> 「VポイントPay残高ウィジェット」を選び、ホーム画面に配置します。</li>
+          <li><span>5.</span> 配置後は、自動的に最新の残高が表示されます。</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="section-inner">
+        <h2>ダウンロード</h2>
+        <p class="center">
+          最新版のダウンロードや変更履歴は、GitHub のリリースページから確認できます。
+        </p>
+        <p class="center">
+          <a class="btn primary" href="https://github.com/shigelab-design/vpointpay-widget/releases" target="_blank" rel="noopener">
+            GitHub リリースページへ
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <h2>よくある質問</h2>
+        <div class="faq">
+          <div class="faq-item">
+            <h3>Q. ログイン情報は安全ですか？</h3>
+            <p>
+              ログイン情報は端末内で管理され、開発者が外部から参照することはできません。詳細はGitHubのソースコードをご確認ください。
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3>Q. 対応しているAndroidバージョンは？</h3>
+            <p>
+              対応バージョンは GitHub の README または Google Play の説明欄に記載しています。
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3>Q. 利用は無料ですか？</h3>
+            <p>
+              本アプリは無料で利用できます。広告表示もありません。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-title">VポイントPay残高ウィジェット</p>
+      <p class="footer-links">
+        <a href="https://github.com/shigelab-design/vpointpay-widget" target="_blank" rel="noopener">GitHub</a>
+      </p>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> shigelab-design
+      </p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
 </body>
 </html>
